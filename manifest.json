@@ -12,7 +12,7 @@
 
 {  
 
-	"src": "/caritas192.png",
+	"src": "/Asisapp/caritas192.png",
 	"type": "image/png",
 	"sizes": "192x192",
     "purpose": "any maskable"
@@ -20,7 +20,7 @@
 },
 {  
 
-	"src": "/caritas512.png",
+	"src": "/Asisapp/caritas512.png",
 	"type": "image/png",
 	"sizes": "512x512",
     "purpose": "maskable"
@@ -28,7 +28,7 @@
 },
 {  
 
-	"src": "/iphone.png",
+	"src": "/Asisapp/iphone.png",
 	"type": "image/png",
 	"sizes": "180x180",
     "purpose": "maskable"
