@@ -12,7 +12,7 @@
 
 {  
 
-	"src": "/Asisapp/Asisapp192.png",
+	"src": "/192.png",
 	"type": "image/png",
 	"sizes": "192x192",
     "purpose": "any maskable"
@@ -20,7 +20,7 @@
 },
 {  
 
-	"src": "/Asisapp/Asisapp512.png",
+	"src": "/512.png",
 	"type": "image/png",
 	"sizes": "512x512",
     "purpose": "maskable"
@@ -28,7 +28,7 @@
 },
 {  
 
-	"src": "/Asisapp/Asisapp180.png",
+	"src": "/180.png",
 	"type": "image/png",
 	"sizes": "180x180",
     "purpose": "maskable"
