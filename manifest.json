@@ -1,11 +1,11 @@
 {
-"name": "Cáritas Texcoco",
-"short_name": "Cáritas Texcoco",
+"name": "AsisApp",
+"short_name": "AsisApp",
 "teme_color": "#ffe88a",
 "backgroud_color": "#ffe88a",
 "display": "standalone",
 "orientation": "portrait",
-"scope": "./",
+"scope": ".Asisapp/",
 "id": "./index.html",
 "start_url": "./?utm_source=web_app_manifest",
 "icons": [
