@@ -5,7 +5,7 @@
 "backgroud_color": "#ffe88a",
 "display": "standalone",
 "orientation": "portrait",
-"scope": "https://asisapp.github.io/Asisapp/",
+"scope": "./Asisapp/",
 "id": "./index.html",
 "start_url": "./?utm_source=web_app_manifest",
 "icons": [
