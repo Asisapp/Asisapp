@@ -1,3 +1,4 @@
+importScripts('https://cdn.onesignal.com/sdks/OneSignalSDKWorker.js');
 
 const CACHE_NAME = "v1_cache_panel_adm",
 urlsToCache = [
