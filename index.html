@@ -315,7 +315,7 @@ var actionbardata = {"siteID":"219610288","siteURL":"http:\/\/alegra58.wordpress
 
 <button type="button" class="btn btn-info btn-lg onclick="promptEvent.prompt()">Instalar aplicación</button>
 
-	
+	<button id="notificationButton" style="background-color: #00bfff;">Activar Notificaciones</button>
 
 	
 </div>
@@ -935,6 +935,21 @@ let promptEvent;
 
 	
 */
+
+if ("Notification" in window) {
+  const notificationButton = document.getElementById('notificationButton');
+  notificationButton.addEventListener('click', async function() {
+    const permission = await Notification.requestPermission();
+    if (permission === "granted") {
+      const notification = new Notification("¡Las notificaciones están activadas!", {
+        icon: "https://asisapp.github.io/Asisapp/Asisapp512.jpeg",
+        body: "Ahora puedes recibir notificaciones.",
+      });
+    }
+  });
+}
+
+	  
 	  console.log("Service worker sera one signal");
 
     </script>
