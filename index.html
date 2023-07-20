@@ -19,8 +19,8 @@
     };
     OneSignal.push(function () {
         OneSignal.SERVICE_WORKER_PARAM = { scope: '/Asisapp/' };
-        OneSignal.SERVICE_WORKER_PATH = 'Asisapp/sw.js'
-        OneSignal.SERVICE_WORKER_UPDATER_PATH = 'Asisapp/sw.js'
+        OneSignal.SERVICE_WORKER_PATH = 'Asisapp/OneSignalSDKWorker.js'
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = 'Asisapp/OneSignalSDKWorker.js'
         OneSignal.init(initConfig);
     });
 </script>
